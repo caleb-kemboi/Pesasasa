@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/deposit"
+            android:title="DEPOSIT" />
+        <item
+            android:icon="@drawable/ic_access_time_black_24dp"
+            android:id="@+id/bet_history"
+            android:title="BET HISTORY" />
+        <item
+            android:id="@+id/withdraw"
+            android:title="WITHDRAW" />
+        <item
+            android:id="@+id/transaction_history"
+            android:title="TRANSACTION HISTORY" />
+        <item
+            android:id="@+id/change_password"
+            android:title="CHANGE PASSWORD" />
+        <item
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:id="@+id/log_out"
+            android:title="LOG OUT" />
+
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/invite_friends"
+                android:title="INVITE FRIENDS" />
+            <item
+                android:id="@+id/faqs"
+                android:title="FAQ'S" />
+            <item
+                android:id="@+id/contact_us"
+                android:title="CONTACT US" />
+            <item
+                android:id="@+id/terms_and_conditions"
+                android:title="TERMS AND CONDITIONS" />
+
+        </menu>
+    </item>
+
+</menu>

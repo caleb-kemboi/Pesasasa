@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/enter_code_app_bar"
+        layout="@layout/enter_code_appbar">
+    </include>
+
+    <TextView
+        android:id="@+id/textview_code_sent"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Code has been sent to your number via sms.\nResend code. "/>
+
+    <EditText
+        android:id="@+id/enter_code_id"
+        android:hint="Enter Code"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textview_code_sent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:padding="5dp"
+        android:id="@+id/finish_reg_btn_id"
+        android:background="@drawable/btn_black_rounded"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/enter_code_id"
+        android:text="Finish Registration"
+        android:textColor="@color/colorWhite"
+        android:layout_width="160dp"
+        android:layout_height="30dp" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_blue_rounded"
+        android:layout_below="@+id/finish_reg_btn_id"
+        android:layout_centerHorizontal="true"
+        android:text="RESEND CODE"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "226990682659",
+    "firebase_url": "https://psasa-a15d3.firebaseio.com",
+    "project_id": "psasa-a15d3",
+    "storage_bucket": "psasa-a15d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226990682659:android:c789d964372fa62f",
+        "android_client_info": {
+          "package_name": "com.example.psasa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226990682659-55m61k5pps8hbp8mmkjer410umrd37n0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.psasa",
+            "certificate_hash": "b488dac6d7518acca5e948d865418d32d998d6b9"
+          }
+        },
+        {
+          "client_id": "226990682659-4n1oq0sicj50atifa048hgup68tem5ea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxobiqrrLaL-gGLaBWrlqbgx02Q6HirCg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226990682659-4n1oq0sicj50atifa048hgup68tem5ea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
